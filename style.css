@@ -17,7 +17,7 @@
             background: rgb(100,49,147);
             background: linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(24, 18, 29) 80%, rgb(65, 65, 65) 100%);
             width: 100%;
-            height: 5.5rem;
+            height: 3rem;
             top: 0;
             right: 0;
             display: flex;
@@ -32,13 +32,9 @@
         .fa-home, .fa-question, .fa-file {
             margin-left: 2rem;
             font-size: 2rem;
-            color:  rgb(255, 255, 255);
+            color:  rgb(99, 54, 129);
         }
-
-        .fa-home {
-            color:rgb(52, 110, 37);
-        }
-
+        
         .navbar {
             display: none;
         }
@@ -62,7 +58,7 @@
         
         .persona .name {
             display: block;
-            color: rgb(149, 88, 177);
+            color: rgb(216, 188, 229);
             text-align: center;
             letter-spacing: 0.3rem;
             font-size: 4rem;
@@ -104,19 +100,19 @@
         .circle {
             border: rgb(40, 20, 53) 6px outset;
             position: fixed;
-            top: -35px;
-            right: -60px;
+            top: -1rem;
+            right: -2rem;
             background-color: rgb(14, 36, 9);
-            height: 8rem;
-            width: 8rem;
+            height: 4rem;
+            width: 4rem;
             border-radius: 50%;
         }
         
         i.fas.fa-envelope {
             position: relative;
-            top: 2rem;
-            right: -2rem;
-            font-size: 4rem;
+            top: 1rem;
+            left: 1rem;
+            font-size: 2rem;
             color:  rgb(255, 255, 255);
         }
 }
